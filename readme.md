@@ -1,0 +1,1 @@
+This repo contains a mean stack application that is built.

@@ -14,14 +14,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api', routes);
 
-app.get('/json', function(req, res) {
-	console.log('GET the JSON object!');
-	res
-	.status(200)
-	.json({
-		'jsonData': true
-	});
-})
+// app.get('/json', function(req, res) {
+// 	console.log('GET the JSON object!');
+// 	res
+// 	.status(200)
+// 	.json({
+// 		'jsonData': true
+// 	});
+// })
 
 app.get('/file', function(req, res) {
 	console.log('GET the file!');
